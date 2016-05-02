@@ -135,7 +135,9 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide1, #slide2{ width: 100%; }
 #slide1{
-	background:url('../img/bkgd1.jpg') 50% 0 no-repeat fixed;
+	background: url('../img/bkgd2.jpg') 50% 0 no-repeat fixed;
+	background-blend-mode: multiply;
+	background-color: #777;
 	color: #fff;
 	height: 600px;
 	margin: 0;
@@ -153,7 +155,9 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide3{
-	background: url(../img/bkgd2.jpg) 50% 0 no-repeat fixed;
+	background: url('../img/bkgd1.jpg') 50% 0 no-repeat fixed;
+	background-blend-mode: multiply;
+	background-color: #777;
 	color: #fff;
 	height: 600px;
 	padding: 170px 0 0 0;	
@@ -168,7 +172,9 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide5{
-	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+	background: url('../img/bkgd3.jpg') 50% 0 no-repeat fixed;
+	background-blend-mode: multiply;
+	background-color: #ccc;
 	height: 200px;
 	margin: 0 auto;
 	padding: 250px 0;
