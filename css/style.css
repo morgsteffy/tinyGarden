@@ -36,7 +36,18 @@ h2 {
 h3 {
    font-family: Oswald;
    font-weight: normal;
-   font-size: 16px;
+   font-size: 26px;
+   text-align: center;
+   margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}
+
+h4 {
+   font-family: Oswald;
+   font-weight: normal;
+   font-size: 15px;
    text-align: center;
    margin: 5px 0;
 	padding: 0;
@@ -52,21 +63,22 @@ h3 {
 a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
 a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
 
-a.lpanel:hover{ color: #fff; }
-a.rpanel:hover{ color: #fff; }
+a.lpanel:hover{ color: #754A3E; }
+a.rpanel:hover{ color: #754A3E; }
 /*= HEADER & NAVIGATION
 --------------------------------------------------------*/
 
 #header { 
 	width: 100%; 
-	background: url('../img/header-bg.png'); 
+	/*background: url('../img/header-bg.png'); */
 	height: 80px; 	
 	position: fixed;
-	margin-top: 30px;
+	/*margin-top: 30px;*/
+	background-color:rgba(0,0,0,0);
 }
 
 #nav { width: 410px; float: right; margin-top: 20px; }
-#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
+#logo a { color: #FCD085; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; font-family:"Righteous"; font-weight: bold; }
 #nav ul{
 	list-style: none;
 	display: block;
@@ -80,9 +92,9 @@ a.rpanel:hover{ color: #fff; }
 	padding-left: 21px;
 }
 
-#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
-#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
-#nav li a:hover { color: #fff; opacity:1;  }
+#nav li a { color: #FCD085; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a.active { color: #FCD085; opacity:1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #FCD085; opacity:1;  }
 
 
 
@@ -137,7 +149,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide1{
 	background: url('../img/bkgd2.jpg') 50% 0 no-repeat fixed;
 	background-blend-mode: multiply;
-	background-color: #777;
+	background-color: #888;
 	color: #fff;
 	height: 600px;
 	margin: 0;
@@ -155,7 +167,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide3{
-	background: url('../img/bkgd1.jpg') 50% 0 no-repeat fixed;
+	background: url('../img/bkgd4.jpg') 50% 0 no-repeat fixed;
 	background-blend-mode: multiply;
 	background-color: #777;
 	color: #fff;
@@ -186,6 +198,11 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background:#fff; 
 	clear:left; 
 	font:14px Helvetica,Arial,sans-serif; 
+}
+
+.title
+{
+	color:#000;
 }
 
 

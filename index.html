@@ -8,12 +8,13 @@
 	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
        <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
 	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
 	   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
 	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
 	<script>
    
-<!----- JQUERY FOR SLIDING NAVIGATION --->   
+/* <!-- JQUERY FOR SLIDING NAVIGATION -->   */
 $(document).ready(function() {
   $('a[href*=#]').each(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
@@ -24,7 +25,7 @@ $(document).ready(function() {
        if ($target) {
          var targetOffset = $target.offset().top;
 
-<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+/* <!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->    */
          $(this).click(function() {
             $("#nav li a").removeClass("active");
             $(this).addClass('active');
@@ -46,7 +47,7 @@ $(document).ready(function() {
 <body>
 
 
-<!----- HEADER START--->   
+<!----- HEADER START -->   
 <header id="header">
 <div class="content">
 <div id="logo"><a href=""> UrbanRoots </a></div>
@@ -56,21 +57,22 @@ $(document).ready(function() {
 		<li><a href="#slide1" class="active" title="Next Section">Home</a></li>
 		<li><a href="#slide2" title="Next Section">How it Works</a></li>
 		<li><a href="#slide3" title="Next Section">About Us</a></li>
-		<li><a  href="#slide4" title="Next Section">Buy</a></li>
+		<li><a  href="#slide4" title="Next Section">Sign Up</a></li>
 	</ul>
 </nav>
 </div>
 </header>	
-<!----- HEADER END--->   
+<!----- HEADER END -->   
 
-<!----- SLIDES START --->   	
+<!----- SLIDES START -->  
+
 	<div id="slide1">
 		<div class="content">
 			<!--<div id="christmas_tree"> </div>-->
-            <h1>Grow your food</h1>
+            <h1>Bring Gardening to you Balcony</h1>
 		    <h3>A plant subscription box for the urban foodie</h3>
 		    <div id="divider"> </div>
-		     <h3 style="margin:3px 5px;">It doesn't get more local than this</h3>
+		     <h4 style="margin:3px 5px;">It doesn't get more local than this</h4>
            <div id="ribbon"></div>
 	       <div id="new_year"> </div>
 		</div> 
@@ -80,8 +82,9 @@ $(document).ready(function() {
 		<div class="content" >
             <div class="quotes_container">
 
+            <h1 class="title">How it works</h1>	
 
-		    <h3 class="quotes">We hand-pick the produce that will thrive where you live. Enjoy year-round fresh veggies and herbs, cultivated right outside your door. Gardening, made simple.</h3>
+		    <h3 class="quotes">Each season, enjoy a hand-pick box of seedlings that will thrive where you live. Enjoy year-round fresh veggies and herbs, cultivated right outside your door. Gardening, made simple.</h3>
 		  <!--<img src="img/dr-seuss.png" align="left"/> <h4 class="author_name_gray">Dr. Seuss </h4>-->
 		</div> 
 		</div> 
@@ -101,7 +104,8 @@ $(document).ready(function() {
 	<div id="slide4">
 		<div class="content">
               <div class="quotes_container">
-		    <h3 class="quotes">Interested? Sign up below to be a first customer!</h3>
+              	<h1 class="title">Sign Up</h1>	
+		    <h3 class="quotes">Interested? Leave your email </h3>
 
 		    <!-- Begin MailChimp Signup Form -->
 			<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
@@ -113,7 +117,7 @@ $(document).ready(function() {
 			<div id="mc_embed_signup">
 			<form action="//github.us13.list-manage.com/subscribe/post?u=b9e19dbeb12fe7491743cb584&amp;id=9ac41f6fc5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 			    <div id="mc_embed_signup_scroll">
-				<label for="mce-EMAIL">Keep an eye out for our email soon!</label>
+				<label for="mce-EMAIL">Keep an eye out for our email soon</label>
 				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
 			    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 			    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b9e19dbeb12fe7491743cb584_9ac41f6fc5" tabindex="-1" value=""></div>
