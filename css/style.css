@@ -107,6 +107,12 @@ a.rpanel:hover{ color: #754A3E; }
   text-align: left;
   margin: 50px auto;
 }
+
+.infographic {
+	width: 200px;
+	height: 200px;
+	margin:30px;
+}
    
  .author_name_white { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #fff; font-size: 20px; }  
  .author_name_gray { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }  
@@ -151,7 +157,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background-blend-mode: multiply;
 	background-color: #888;
 	color: #fff;
-	height: 600px;
+	height: 400px;
 	margin: 0;
 	padding: 200px 0 260px 0;
 	background-size: cover;
@@ -160,7 +166,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide2{
 	background-color: #fff;
 	color: #333333;
-	height: 300px;
+	height: 500px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 200px 0;
@@ -187,7 +193,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background: url('../img/bkgd3.jpg') 50% 0 no-repeat fixed;
 	background-blend-mode: multiply;
 	background-color: #ccc;
-	height: 200px;
+	height: 240px;
 	margin: 0 auto;
 	padding: 250px 0;
 	color: #fff;
